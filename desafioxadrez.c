@@ -1,9 +1,11 @@
 #include <stdio.h>
 int main(){
 int r = 0;
+
+
 // TORRE 5 CASAS PARA A DIREITA
 printf("TORRE:\n");
-for(int i = 0; i <= 5; i++);
+for(int i = 0; i <= 5; i++)
 {
     printf("Direita\n"); // Direçao
 }
@@ -11,7 +13,7 @@ for(int i = 0; i <= 5; i++);
 
 // BISPO 5 CASAS DIAGONAL
 printf("BISPO:\n");
-for(int b = 0; b <= 5; b++);
+for(int b = 0; b <= 5; b++)
 {
     printf("Cima Direita\n"); // Direçao
 }
